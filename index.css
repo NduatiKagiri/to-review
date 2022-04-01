@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@
 #img-div {
   padding: 5rem;
   text-align: center;
-  display:relative;
+  display: block;
   margin: 2rem;
   background-color: #fff;
 }
@@ -42,21 +42,21 @@
   padding-top: 1em;
 }
 
+h3 {
+  padding-bottom: 5rem;
+}
+
 #main h3 {
   margin-left: 20%;
   margin-top: 2rem;
 }
 
 #main h3 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 figcaption {
-    margin-top: 1rem;
-}
-
-h3 {
-  padding-bottom:5rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 715px) {
@@ -66,18 +66,18 @@ h3 {
   }
 }
 
-@media screen and (max-width:475px) {
+@media screen and (max-width: 475px) {
   #header {
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
-  #header h1{
-    font-size:30px;
-    }
+  #header h1 {
+    font-size: 30px;
+  }
 
-  #main h3 a{
+  #main h3 a {
     text-decoration: none;
     margin-right: 10%;
   }
